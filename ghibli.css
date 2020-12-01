@@ -1,0 +1,50 @@
+html {
+	background: url(https://pbs.twimg.com/media/EHjpEW_X0AE0Izy.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1, h3 {
+	color: white;
+}
+
+#ears {
+	background-image:url('Totoro/Totoro Ears and Hat.png');
+	height: 300px;
+        width: 200px;
+        z-index: 3;
+}
+
+#tBody {
+	background-image:url('Totoro/Totoro body.png');
+	height: 500px;
+	width: 450px;
+	z-index:1;
+}
+
+#fur {
+        background-image:url('Totoro/Totoro Fur.png');
+        height: 400px;
+        width: 350px;
+        z-index:2;
+}
+#eyes {
+        background-image:url('Totoro/Totoro Eyes.png');
+        height: 130px;
+        width: 180px;
+        z-index:3;
+}
+#nose {
+        background-image:url('Totoro/Totoro Nose Whiskers.png');
+        height: 350px;
+        width: 400px;
+        z-index:3;
+}
+
+
+.basicSettings {
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: center;
+	background-size: contain;
+}
